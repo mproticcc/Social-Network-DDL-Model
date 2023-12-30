@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C890B86E-49FA-CDBE-5D4C-9C82508A9182" name="Galerija">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:34:16 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Galerije" id="CC1F42C2-BEAF-BCE3-BB96-B40BDC105899">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:34:38 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_kreiranja" id="66288DC0-9F6C-BD61-CE0E-D9EF1D691CA9">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:44:13 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_Galerije" id="2BC36E71-FE7F-EAD1-815E-D47A22B533EC">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:43:50 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F83C94AA-3779-B7B7-2FEF-DE73DC44A1D9" name="Galerija_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:35:05 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC1F42C2-BEAF-BCE3-BB96-B40BDC105899"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

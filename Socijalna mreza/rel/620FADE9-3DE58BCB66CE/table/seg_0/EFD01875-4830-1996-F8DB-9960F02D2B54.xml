@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFD01875-4830-1996-F8DB-9960F02D2B54" name="Tip_Eventa">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:35:46 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Tip_eventa" id="1BED6E95-42E5-6FC4-29FD-CD7BC88F2CF9">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:41 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="3367EF24-3678-43AB-9690-4962755ABE52">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:41 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="575AA787-46CC-804A-01EE-2384EC58B743" name="Tip_Eventa_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:41 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BED6E95-42E5-6FC4-29FD-CD7BC88F2CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

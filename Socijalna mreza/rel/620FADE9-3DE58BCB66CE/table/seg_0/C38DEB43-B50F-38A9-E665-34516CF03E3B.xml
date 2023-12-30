@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C38DEB43-B50F-38A9-E665-34516CF03E3B" name="Event">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:47:20 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Event" id="D6D43616-0D77-6AFF-CE71-B8A0D3A37C98">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:47:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="ADB3B0FF-9569-FE4B-4A3A-117CF4B931E8">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:51:25 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="D3FD5F3B-CF8C-08BF-2E8B-8E0B6A4AD47F">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:54:46 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_i_vreme_pocetka" id="5A03E719-F87F-2565-E0AE-5D3DA2A2F2FB">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:51:25 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_i_vreme_zavrsetka" id="C81E1AC2-47F6-B2E3-E703-D82931207796">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:51:25 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Objavljivanja" id="FC4201AF-66AE-0AD2-A5B9-8D8F262C2B19">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:52:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Arhiviranja" id="B5C9FED2-C999-52EC-3D73-CCCDB399708E">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:52:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Brisanja" id="099CA064-E82B-BF10-4018-0E913DEA1529">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:52:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija_ID_Lokacija" id="2DF95987-2406-9F15-DA5C-7D9692E2963A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:53:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82BFBDF7-F25C-4DF2-1D92-710D9AFEEAB1" referredColumn="D0C95BF4-431D-AEFE-CAF1-9A29154F2524"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="EFC03F74-A81C-E805-A8DC-FC270B10A907">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:58:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C19098C-B4A8-584D-4646-8D9562DEF86A" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Tip_Eventa_ID_Tip_eventa" id="185A20DF-EB7D-58F8-972C-5A57C1D2B134">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADC2083F-AFAB-3C2C-A3B3-FB31773EB29A" referredColumn="1BED6E95-42E5-6FC4-29FD-CD7BC88F2CF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D41C0B2A-4F26-8A84-8CC7-071DA71F04BA" name="Event_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:50:12 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D43616-0D77-6AFF-CE71-B8A0D3A37C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1468E1E-BD25-12BC-B842-1A6FE84B5C28" name="Event_Lokacija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:53:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DF95987-2406-9F15-DA5C-7D9692E2963A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BBC601A-27D4-3717-D6CA-79D074AB91EB" name="Kreator_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:58:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFC03F74-A81C-E805-A8DC-FC270B10A907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D849CA5-1084-16CE-8E81-91BE2283A9FE" name="Event_Tip_Eventa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="185A20DF-EB7D-58F8-972C-5A57C1D2B134"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

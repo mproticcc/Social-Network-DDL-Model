@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D4D059B-E42E-6BC2-48DF-F4305ACB6D1F" name="Istorija_prijava">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:03:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_77</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Istorija_prijava" id="36DB6584-87D0-844A-5E6F-B7BDB4B8E706">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:03:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posao_ID_Posao" id="675A8EFC-7313-8874-40B5-E6E8C759EA88">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:04:24 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0346083F-C962-B8B3-64CE-DEE321924A7F" referredColumn="7FC9C022-553E-5C7D-B459-99791520A50E"/>
+</associations>
+</Column>
+<Column name="Kandidat_ID_kandidat" id="9FACF047-CA2F-9C06-720F-34C6FC4AB666">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:16:53 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EECD2F6A-2383-2052-E4B0-252619DAC87E" referredColumn="2FDE0703-0936-E3DC-BE02-CB15B12EAC22"/>
+</associations>
+</Column>
+<Column name="Datum_prijavljivanja" id="0A307C61-14BD-4EDC-868C-E8B52229B613">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:12:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58C31A25-E3F1-F811-BC99-CC473EC10842" name="Istorija_prijava_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:03:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36DB6584-87D0-844A-5E6F-B7BDB4B8E706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8771E285-2D3E-C490-FF3E-3B1A85CCBEBD" name="Istorija_prijava_Posao_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:04:24 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="675A8EFC-7313-8874-40B5-E6E8C759EA88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA9B7602-7815-1BD8-0892-8CB0BDECF452" name="Istorija_prijava_Kandidat_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:16:53 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FACF047-CA2F-9C06-720F-34C6FC4AB666"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

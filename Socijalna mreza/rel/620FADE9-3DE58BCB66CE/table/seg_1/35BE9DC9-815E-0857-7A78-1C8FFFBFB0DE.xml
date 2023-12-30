@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="35BE9DC9-815E-0857-7A78-1C8FFFBFB0DE" name="Mentor">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:34:23 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_74</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Mentor" id="43A1F9B3-0C5B-6416-B65C-D9C193F06624">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:34:43 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="DD480AAC-255C-9BEF-372A-15FC9A1EEF24">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:34:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="D5B11B99-C0DD-8FBE-0034-8D3FAD7B5108">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:35:10 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Preporuke_ID_Preporuke" id="0B7DDB14-DE45-F8CC-ED89-F4783CD648D4">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:37:24 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5ECB6A9-BDDD-D964-72C7-C263A237BC6F" referredColumn="1DD1F0FF-4C93-A1BA-ACA9-2137437B1203"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFD65CDD-9C66-1DA9-BD6A-49CF3770E632" name="Mentor_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:34:43 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43A1F9B3-0C5B-6416-B65C-D9C193F06624"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89A5CCF4-C977-1A78-EC97-237D36B6190C" name="Mentor_Preporuke_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:37:24 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B7DDB14-DE45-F8CC-ED89-F4783CD648D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

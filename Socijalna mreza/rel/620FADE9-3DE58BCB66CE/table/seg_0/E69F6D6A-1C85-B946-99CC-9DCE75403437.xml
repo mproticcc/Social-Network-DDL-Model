@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E69F6D6A-1C85-B946-99CC-9DCE75403437" name="Stepen_obrazovanja">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:37:42 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Stepen" id="3F2B1150-2938-7CCA-EE5D-5E4EB993E0C7">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:38:02 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="2E7735EF-32F6-6D73-9D0B-4D9EFE044BD2">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:38:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_zavrsetka" id="44179A52-98BC-BBBE-7F5B-052F3F6EC6A3">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:38:40 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E011E94-218A-178E-E067-981944AD0809" name="Stepen_obrazovanja_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:38:02 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F2B1150-2938-7CCA-EE5D-5E4EB993E0C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

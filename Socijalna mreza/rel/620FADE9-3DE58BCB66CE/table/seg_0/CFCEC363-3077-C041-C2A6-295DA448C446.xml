@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFCEC363-3077-C041-C2A6-295DA448C446" name="Istorija_Kupovine">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:09:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Istorije_Kupovine" id="8AC8DC93-1EA2-56B3-1D46-DFDB270E412A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:10:28 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Kupovine" id="E82846C4-458F-B98A-0FA6-C0D4FDA683FE">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:10:28 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detalji_Porudzbine_ID_Det_porudzbine" id="2EE3031E-E5B4-391C-0E05-82EACB010DB4">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:29:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5D92955-BFBB-DFBA-1FD2-5FC0656DF45E" referredColumn="64FC90DD-A1A7-19BD-F8E9-241A46276393"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="5D4673F0-283B-7674-B4C7-519BF0DC6E73">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:29:21 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE59BFD4-15C0-3126-E9F9-8867DE5CF396" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BCD76E1-F1F6-7D9B-4A47-455BEAA66999" name="Istorija_Kupovine_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:10:28 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AC8DC93-1EA2-56B3-1D46-DFDB270E412A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2276733-9E32-A8FC-B415-74E2B733D1AD" name="Istorija_Kupovine_Detalji_Porudzbine_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:29:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EE3031E-E5B4-391C-0E05-82EACB010DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1F63F14-902A-469E-69D6-705EE71324DB" name="Istorija_Kupovine_Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:29:21 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D4673F0-283B-7674-B4C7-519BF0DC6E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

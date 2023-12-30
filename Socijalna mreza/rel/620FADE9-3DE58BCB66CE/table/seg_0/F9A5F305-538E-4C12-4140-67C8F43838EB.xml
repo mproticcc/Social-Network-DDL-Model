@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9A5F305-538E-4C12-4140-67C8F43838EB" name="Pesma">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:36:31 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pesme" id="A5ECF796-C39C-252C-5CE4-F4C0CF0E23AA">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:49:28 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naslov_Pesme" id="6B3B19DC-591E-B837-AAF7-B934871DF1EA">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:46:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Izvodjac" id="E5296640-073C-4844-5DCA-CB82709682D2">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:47:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godinja_Izdanja" id="3F63AC66-33FB-77A9-95F5-ECD1C538E29C">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:47:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zanr_ID_Zanr" id="B5971D21-50E6-5BCC-9C33-0DA6B837E87A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:48:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="556CAD5E-855B-F671-B546-4A179DB51FFF" referredColumn="79E13C41-C6A4-BDF8-2007-C34024C92804"/>
+</associations>
+</Column>
+<Column name="URL_Pesme" id="0CBE6710-C4C2-1137-5B06-322C40AAB28B">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:50:08 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Copyright_Izvodjaca" id="11555DB1-FF43-A599-C58F-EF303FDE5035">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:37:01 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7300CDB0-51B5-865F-12B3-4D7D9D77DD0E" name="Muzika_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:36:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5ECF796-C39C-252C-5CE4-F4C0CF0E23AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AAE3555-A6E3-0883-D9DA-4297926B9957" name="Muzika_Zanr_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:48:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5971D21-50E6-5BCC-9C33-0DA6B837E87A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

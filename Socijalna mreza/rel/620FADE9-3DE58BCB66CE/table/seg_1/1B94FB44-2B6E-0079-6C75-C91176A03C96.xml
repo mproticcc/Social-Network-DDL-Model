@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="1B94FB44-2B6E-0079-6C75-C91176A03C96" name="DozvoleUAdministraciji">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:12 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_81</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Dozvole_admin" id="E69F5E9D-5202-FA9D-4931-BBEA7ADB6856">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:43 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dozvole_ID_Dozvola" id="0F6C0253-0B30-3817-B4D5-37BCB267531E">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:47 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94EADE27-06D4-A4B5-CEF7-1AB1F0CA1195" referredColumn="7AAD818E-FABE-62BF-2F84-486BDE2F990D"/>
+</associations>
+</Column>
+<Column name="Administracija_ID_Administracija" id="DC7854E9-DC6A-8742-2B49-28CA13EAFE20">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:50 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32D0D9C2-4D21-C819-3D85-D2DA529A6784" referredColumn="5F8C4F02-F079-5F72-B410-F7FE066F5DF5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B2332F1-1F66-0A67-1A2D-C5EE227073CC" name="DozvoleUAdministraciji_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:43 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E69F5E9D-5202-FA9D-4931-BBEA7ADB6856"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD958FE5-6721-C4C9-D5D8-ADF328F022C2" name="DozvoleUAdministraciji_Dozvole_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:47 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F6C0253-0B30-3817-B4D5-37BCB267531E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5630ECD1-7CE1-6EAB-2669-5BA888CC760E" name="DozvoleUAdministraciji_Administracija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:52:50 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC7854E9-DC6A-8742-2B49-28CA13EAFE20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

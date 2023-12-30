@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE411832-83A1-4891-B566-BA0CD37AEEE7" name="Role">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:52:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Rola" id="9B7B8EF8-D900-5542-C24D-80A70815EC2F">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:52:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_Role" id="4DA539D5-F5D9-1FD9-B1AA-2B78A9132D55">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:52:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis_Role" id="BC2BAF21-B6C9-4B23-725B-1DDD3F4EB13E">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:02:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDBC26D3-4CD5-CB53-3EE2-EDED2F02F017" name="Role_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:52:41 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B7B8EF8-D900-5542-C24D-80A70815EC2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

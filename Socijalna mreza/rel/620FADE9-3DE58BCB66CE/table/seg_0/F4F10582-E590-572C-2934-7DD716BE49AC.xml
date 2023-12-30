@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4F10582-E590-572C-2934-7DD716BE49AC" name="Prijateljstvo_Request">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:08:33 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Req" id="110CB00E-E821-4BEC-B542-366D5B109FA7">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:11:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poruka" id="0F732A33-1F5D-87CC-993F-AFF069E6BABC">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:11:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="34352187-268A-6834-56F2-0C4ACAA1EEE9">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:12:03 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC6EB00A-4659-BD3E-65B5-9592F1FFC239" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnik1" id="3E8F4595-08DF-EBFE-BC60-BD6C09B36101">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:12:08 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49B3A61B-9599-E002-CF39-44902422C5B1" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Status_Prijateljstva_ID_Status" id="1FAC9FB0-E907-76D1-676A-79D22308DC6F">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:19:42 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB8523CD-0913-4EC8-A1D5-4BE44BE505C1" referredColumn="3B85657D-A42D-6926-047E-4411613A2606"/>
+</associations>
+</Column>
+<Column name="Datum_Razresenja" id="3223F803-B7FE-6FA4-2DC1-195B49D86023">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:20:26 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="728CBB2E-8908-1DF9-1F3A-691A71FE5940" name="Prijateljstvo_Request_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:11:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="110CB00E-E821-4BEC-B542-366D5B109FA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="695096F5-E074-746C-1180-27F5F7DF561C" name="Prijateljstvo_Request_Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:12:03 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34352187-268A-6834-56F2-0C4ACAA1EEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60DAF8B7-7B11-D93B-E218-987FE9C205C2" name="Prijateljstvo_Request_Korisnik_FKv2">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:12:08 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E8F4595-08DF-EBFE-BC60-BD6C09B36101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9472FE3E-BC88-829A-22E6-E2C34AF18653" name="Prijateljstvo_Request_Status_Prijateljstva_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:19:42 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAC9FB0-E907-76D1-676A-79D22308DC6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

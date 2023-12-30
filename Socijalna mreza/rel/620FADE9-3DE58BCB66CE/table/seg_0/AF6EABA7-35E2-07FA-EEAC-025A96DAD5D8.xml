@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF6EABA7-35E2-07FA-EEAC-025A96DAD5D8" name="Kategorija_Igrica">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:12:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kategorija_Igrica" id="14BEBEFD-F214-2441-9D37-69AEF1F43AFF">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:13:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_Kategorije" id="4814E8F4-79EE-A49B-054D-45FE3DBBB482">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:13:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58D64E52-0B4E-1156-9E34-F18C0FE36D26" name="Kategorija_Igrica_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:13:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14BEBEFD-F214-2441-9D37-69AEF1F43AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

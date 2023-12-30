@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B018372-E67D-2B84-D938-E568DE279B76" name="Blokiranje">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:51:28 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Blokiranje" id="D024B920-2F83-AB01-3516-3968EC9AE371">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:51:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Blokiranja" id="B2D4A7C8-2876-A20D-3315-233B6B065D51">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:47:50 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Odblokiranja" id="DEB8ECD2-7CC4-4A46-F435-5543B4B5FC05">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:48:05 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="A2F82E6C-9EE2-048A-05DA-F4BA638ABF41">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:23 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="586F8145-10A7-88B7-377D-F061E8B4602E" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnik1" id="8F542F0D-D826-4114-8068-947790816859">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:26 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="172AAAC0-F9D3-C5F7-5FE7-5F882BEAEE3C" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89E95D20-7A80-96B6-28DF-94B58D5556B9" name="Blok_Lista_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:51:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D024B920-2F83-AB01-3516-3968EC9AE371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D364B58-03CF-C56C-9DD6-E3B916BD337F" name="Blok_Lista_Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:23 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2F82E6C-9EE2-048A-05DA-F4BA638ABF41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C759D9B-F1A2-01E9-D589-B10F2BEEDE51" name="Blok_Lista_Korisnik_FKv2">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:26 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F542F0D-D826-4114-8068-947790816859"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

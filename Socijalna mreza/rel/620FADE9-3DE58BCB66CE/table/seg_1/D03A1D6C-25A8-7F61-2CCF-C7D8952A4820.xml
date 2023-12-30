@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D03A1D6C-25A8-7F61-2CCF-C7D8952A4820" name="Dozvole">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:45:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_78</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Dozvola" id="7AAD818E-FABE-62BF-2F84-486BDE2F990D">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:45:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="AFFF3D87-D6C8-ED3E-8589-30B5E9659FB1">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:46:03 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="3D96D33C-5073-5215-AC72-47BC3EBFE2E1">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:46:13 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum pocetka vazenja" id="C2093E76-1329-31AC-DCE1-79C03EBB92B5">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:46:47 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum isteka vazenja" id="79933652-61DA-85BA-D129-6AAE85E242A4">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:46:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="816A2159-F3C6-2A58-C226-95B50DA90BFA" name="Dozvole_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:45:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAD818E-FABE-62BF-2F84-486BDE2F990D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B59313DF-3595-A902-3661-39F791084948" name="Recenzija">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:09:15 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Recenzija" id="D84677BE-AAD9-B741-A2A5-0D5D36C9EE45">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocena" id="87CD5BA2-398E-B64F-721F-9234FF9337D6">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Komentar" id="2360DE1A-A349-DE13-0E90-1CD2B3B1CECF">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="8096242E-F597-B94D-7BFB-CD4127383CAB">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:40 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E42BE8EE-A545-DB67-4A5F-8C3F44B73396" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Prodavac_ID_Prodavac" id="C42D0367-9E18-807B-69AA-BCBD64E7DB59">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C395F8F0-2461-23A3-4B6F-BF9D3EA60A86" referredColumn="784C9520-BAEC-A332-A4F5-AC50075F5699"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="387C42B0-086A-7822-5369-831195CF2D06" name="Recenzija_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84677BE-AAD9-B741-A2A5-0D5D36C9EE45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B437439-589B-C1B3-F5BD-E4284D9DC428" name="Recenzija_Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:40 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8096242E-F597-B94D-7BFB-CD4127383CAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="786DEC9D-9231-62B9-BFD4-FE91B8C510F2" name="Recenzija_Prodavac_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:10:45 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42D0367-9E18-807B-69AA-BCBD64E7DB59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

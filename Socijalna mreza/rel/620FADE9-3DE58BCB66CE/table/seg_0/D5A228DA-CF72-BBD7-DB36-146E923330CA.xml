@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5A228DA-CF72-BBD7-DB36-146E923330CA" name="Preporuke">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:12:10 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_80</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Preporuke" id="1DD1F0FF-4C93-A1BA-ACA9-2137437B1203">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:12:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tekst_preporuke" id="38D43AFC-FAC7-99E9-464A-F7F8CFAC1FCC">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:12:47 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ocena" id="9F1A2EC0-795A-3194-EE68-BE6F62150113">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:13:02 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_pisanja" id="C5F04EB5-F9AA-2BC1-8C48-CEE4F05985E5">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:13:24 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kompanije_ID_Kompanija" id="43550A5D-3966-96DF-D241-1FF743874730">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:15:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6A6B006-BF57-A80D-850E-983517534240" referredColumn="BA084D74-CF65-D1E5-EED3-288F9A90F349"/>
+</associations>
+</Column>
+<Column name="Kandidat_ID_kandidat" id="2B293667-D732-5CA1-5788-8AA4F0842706">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:15:43 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3865AA61-21C0-3164-B769-A1F4340AD665" referredColumn="2FDE0703-0936-E3DC-BE02-CB15B12EAC22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80E75FF6-B925-A565-FFE1-853B3638A36D" name="Preporuke_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:12:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DD1F0FF-4C93-A1BA-ACA9-2137437B1203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D637F7CD-DBAC-C69B-B851-5080C6A3C77F" name="Preporuke_Kompanije_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:15:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43550A5D-3966-96DF-D241-1FF743874730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B13A9E7-9854-D928-C7F2-8BBCF7BCADB0" name="Preporuke_Kandidat_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:15:43 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B293667-D732-5CA1-5788-8AA4F0842706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F1E0BB3-4FBA-6C7E-F1C9-B20086EB944E" name="Detalji_Porudzbine">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:20:06 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Det_porudzbine" id="64FC90DD-A1A7-19BD-F8E9-241A46276393">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:20:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ukupna_Cena" id="59C155A1-FAD6-7CAF-4908-F9221820EAD6">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:22:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacin_Placanja_ID_Placanje" id="0D15334D-47B7-C503-3300-97B6BD853477">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:21:06 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10D0ACBE-04E3-5CCB-1C19-625CB9288173" referredColumn="D37E12F2-B6CA-EB44-E439-724335EEE86F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76BB0A66-3243-F94F-2850-6162866EC28A" name="Detalji_Porudzbine_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:20:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64FC90DD-A1A7-19BD-F8E9-241A46276393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB44375D-03E7-9DEF-53CB-E0FA61D727D6" name="Detalji_Porudzbine_Nacin_Placanja_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:21:06 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D15334D-47B7-C503-3300-97B6BD853477"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

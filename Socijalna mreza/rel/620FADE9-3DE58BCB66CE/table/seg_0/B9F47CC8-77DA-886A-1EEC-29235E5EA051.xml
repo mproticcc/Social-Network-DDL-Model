@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9F47CC8-77DA-886A-1EEC-29235E5EA051" name="Istorija_skolovanja">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:33:15 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_65</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Istorija_skolovanja" id="A98ADB25-EFC1-1A49-1026-DB3C453B813B">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:33:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kandidat_ID_kandidat" id="C0447074-4908-C33B-DC30-EE78A0E63ED8">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:09:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2280773F-5CC7-1BE6-18E0-DD2ABFC7682D" referredColumn="2FDE0703-0936-E3DC-BE02-CB15B12EAC22"/>
+</associations>
+</Column>
+<Column name="Obrazovna_ustanova_ID_Obrazovna_ustanova" id="286C9CF8-99B7-6BAB-80C1-638041FE1914">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:40:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB37BB8F-90C9-217B-7646-7AD8528505F3" referredColumn="F51B9221-C4E8-7FA3-55FD-E7640C02CACB"/>
+</associations>
+</Column>
+<Column name="Prosenca_ocena" id="07270F98-8114-D6D0-82E5-E0C6D60C913A">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:40:39 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_od" id="99B3F2CA-4107-89DB-6C83-0F600D3263F7">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:42:21 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_do" id="999EBE4E-BA8B-7FC2-15E4-DA63A0090C19">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:42:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mentor_ID_Mentor" id="8FBFC15A-2994-2030-87D4-B03B73509802">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:49:55 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF0ECEEE-6445-DD9E-025D-798807B2C4AD" referredColumn="43A1F9B3-0C5B-6416-B65C-D9C193F06624"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70C4AA94-0CF8-D95C-A55E-DD52B163C3BD" name="Istorija_skolovanja_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:33:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98ADB25-EFC1-1A49-1026-DB3C453B813B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="533C8EB2-00FC-E2DC-543A-5F4EC987A4E9" name="Istorija_skolovanja_Kandidat_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:09:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0447074-4908-C33B-DC30-EE78A0E63ED8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4589E0F9-1B02-9B70-217D-6B89C1056F06" name="Istorija_skolovanja_Obrazovna_ustanova_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 15:40:11 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="286C9CF8-99B7-6BAB-80C1-638041FE1914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A985983-3131-60E8-26CD-DD5A85F23943" name="Istorija_skolovanja_Mentor_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-12-30 15:49:55 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FBFC15A-2994-2030-87D4-B03B73509802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

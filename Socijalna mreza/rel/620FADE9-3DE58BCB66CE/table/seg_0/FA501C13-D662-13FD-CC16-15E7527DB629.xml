@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA501C13-D662-13FD-CC16-15E7527DB629" name="Grupa">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:48:28 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name=" ID_Grupe" id="93D1151C-7F44-D605-CA86-914E3078417C">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:48:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_Grupe" id="C9C1E7AC-F918-2D93-9EFB-662249D943BE">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:48:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Kreiranja" id="DA1BB616-97DE-6463-3F22-5A2F1D140566">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:55:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_Clanova" id="A01AE882-46FC-D807-D128-26FAE05C4A5B">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:00:05 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Brisanja" id="42EFFDF0-B65C-5155-96B6-6A0D2C419826">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:56:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Slika_Grupe" id="F072343E-FBFB-6B52-FB85-4782BCA2F728">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:00:22 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pravila_Grupe" id="2AEF9740-C458-19F2-2871-2CE2FD0F8252">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:00:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65C09441-3654-4EEB-028E-5823C3F8931A" name="Grupni_Razgovori_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:48:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D1151C-7F44-D605-CA86-914E3078417C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="580AF462-9EFB-674C-51E6-B15C5956FD6A" name="Kreator_Grupe">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 12:57:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1208758A-B942-E724-AF72-C84DA28834FF" name="Odjava_Eventa">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:32:38 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Odjava_Event" id="C72DDA77-F4EB-4515-FAD8-2454B19C6675">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:33:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_Odjave" id="7398C01E-C7E1-5DE8-5269-B0CC1FCAEEDB">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:33:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Razlog_Odjave" id="F5A49500-B98F-3124-E796-84D3CD0EE274">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:33:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_ID_Event" id="94927A80-076A-75CA-70B4-589E205E5898">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:34:23 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99942252-8264-0AFD-FB4C-F5BB93CD9FC9" referredColumn="D6D43616-0D77-6AFF-CE71-B8A0D3A37C98"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="382D0DD8-6CD1-2C27-39F8-C19CB122323B">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:34:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="060E36C9-0ECD-3482-4C89-237C50380CFE" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D4104AB-03CF-BA83-9AD8-436D8ACFC8F4" name="Odjava_Eventa_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:33:49 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C72DDA77-F4EB-4515-FAD8-2454B19C6675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3927FB7E-66BE-C934-77DF-12A1DD705304" name="Odjava_Eventa_Event_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:34:23 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94927A80-076A-75CA-70B4-589E205E5898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03AAAA05-7EE9-79D9-AB97-1820BCF3D31A" name="Odjava_Eventa_Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:34:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="382D0DD8-6CD1-2C27-39F8-C19CB122323B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

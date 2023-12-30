@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="835DE6FE-DBE0-44D3-5867-05AE1C59CFAB" name="Istorija_poslova">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:44:14 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_71</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_istorija_poslova" id="D012F3E9-D852-5750-5F53-10F464FEBA43">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:44:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Period_od" id="563513DE-AA10-ECAB-6FD3-50CF1268D3B6">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:44:54 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Period_do" id="A88302C4-235E-BA30-8471-52F25BD8B1B1">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:45:05 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posao_ID_Posao" id="E3849E4A-DC8A-E2F5-895C-E74BE733B433">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:56:36 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7105323C-9B54-4B9D-05CE-11470B58A7DB" referredColumn="7FC9C022-553E-5C7D-B459-99791520A50E"/>
+</associations>
+</Column>
+<Column name="Kandidat_ID_kandidat" id="2C042B96-3EFF-86D6-677A-7BE320116B03">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:21:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9C2E03D-7DF4-80C5-C6E3-B19029CDC1F6" referredColumn="2FDE0703-0936-E3DC-BE02-CB15B12EAC22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BA32811-F9DA-A12C-1117-48CA7C967B2E" name="Istorija_poslova_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:44:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D012F3E9-D852-5750-5F53-10F464FEBA43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAB9924F-E664-E300-3A13-C49D54CE9E39" name="Istorija_poslova_Posao_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:56:36 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3849E4A-DC8A-E2F5-895C-E74BE733B433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04F6F0FD-2BBB-EA03-8290-1C9305505908" name="Istorija_poslova_Kandidat_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 14:21:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C042B96-3EFF-86D6-677A-7BE320116B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

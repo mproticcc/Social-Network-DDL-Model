@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D064E01-F91D-1738-0F36-DB67D5FBF04C" name="Status_Poruke">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:48:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Status" id="2A90217B-65EA-04C9-FA8D-92859C95BF49">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:49:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_Statusa" id="9EA208FA-B2BA-6B01-163D-BC9B4257EF0C">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:49:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D92B1B1-5A36-A5D5-9CB0-D339FD60BE0E" name="Status_Poruke_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:49:34 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A90217B-65EA-04C9-FA8D-92859C95BF49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

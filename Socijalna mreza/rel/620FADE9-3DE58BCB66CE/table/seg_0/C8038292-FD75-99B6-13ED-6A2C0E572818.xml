@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8038292-FD75-99B6-13ED-6A2C0E572818" name="Popusti">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:58:40 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Popusti" id="75820C98-94BD-42F6-DAF3-3E46F7B12A8E">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:59:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Procenat" id="85063A71-45AF-9D2F-6A35-7F7B6D2572DC">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:01:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Aktivnost_Popusta" id="22FDE02F-9448-A8CC-E420-0555B176EEA6">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:01:58 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53191E2C-C8EF-E7E6-817B-01C29B237B84" name="Popusti_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:59:56 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75820C98-94BD-42F6-DAF3-3E46F7B12A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

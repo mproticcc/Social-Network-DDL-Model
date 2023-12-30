@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B19260F3-615D-87BA-853F-1D82CE0050EA" name="Obavestenja">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:54:15 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Obavestenja" id="075F5C4B-FACD-0037-6D98-0A344D468B5B">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:54:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="C74C4016-8636-B749-0CD8-0201E959581F">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:58:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F04A16B8-AF2B-1744-CBB5-81D8C4C43C32" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Tip_Obavestenja_ID_Tip_Obavestenja" id="261214F7-0915-6944-7C5B-7246942BFB8E">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:58:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED40A6D8-9A20-3205-1C94-AF50D8AB2160" referredColumn="A5AB4E67-75AC-805A-10EB-56F192B13FAD"/>
+</associations>
+</Column>
+<Column name="Status_Obavestenja_ID_Status_Obavestenja" id="58090466-C9C0-C4A7-35AE-C8341B0E17B6">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:58:33 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6FA460B-DC97-C78F-1E96-2E50E0CB7188" referredColumn="68912B3E-11B1-CBCE-6EE6-3E45A8499C30"/>
+</associations>
+</Column>
+<Column name="Objave_ID_Objave" id="1F5674FC-BEFE-D340-8823-826F19727942">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 14:01:04 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA43ABCA-8ADB-209D-DEE7-6A8A6E3D39AD" referredColumn="29649F62-77C3-A734-6803-5B605677E20B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="795DD2F9-E6CB-99D1-EC23-2BFC1AD853A0" name="Obavestenja_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:54:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="075F5C4B-FACD-0037-6D98-0A344D468B5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35CE0F61-6107-7559-BE80-DDC5ED39D2F2" name="Obavestenja_Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:58:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C74C4016-8636-B749-0CD8-0201E959581F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4969395A-B969-9176-70E1-E9B261E9B45F" name="Obavestenja_Tip_Obavestenja_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:58:27 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="261214F7-0915-6944-7C5B-7246942BFB8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DE34346-AFAB-5DEC-501C-A053DE4D8F94" name="Obavestenja_Status_Obavestenja_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:58:33 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58090466-C9C0-C4A7-35AE-C8341B0E17B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72B27AB4-F828-4FEE-1C93-0814F5486018" name="Obavestenja_Objave_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 14:01:04 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F5674FC-BEFE-D340-8823-826F19727942"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

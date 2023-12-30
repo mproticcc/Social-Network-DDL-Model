@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05926852-DBFA-C67C-30F8-806F5968D1EE" name="Grad">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:49:10 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_46</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Grad" id="878C9132-DE11-4C42-6F92-A195C16126D1">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:49:33 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="399E96FE-F4A2-095C-A6A4-ECECF9DF8E0A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:49:33 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drzava_ID_Drzave" id="1C22AAEB-250C-352E-12EF-E6DD40D57352">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:49:39 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7FCF52C-4AB6-B9EF-100E-CA49686FDF08" referredColumn="A907CE55-5521-BE9E-CE0A-21B2B6D3DDFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="118DE80E-51B1-2FB0-EF03-5DC3E832E3ED" name="Grad_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:49:33 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="878C9132-DE11-4C42-6F92-A195C16126D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C5EF430-D7A7-6B7A-6FA2-EF066D1F399B" name="Grad_Drzava_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 14:49:39 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C22AAEB-250C-352E-12EF-E6DD40D57352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

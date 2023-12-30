@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64F8BB72-E217-5F84-FAE8-628B2693A8CB" name="Leaderboard">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:17:16 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Leaderboard" id="94A1AFFC-9500-4BB4-2456-CD1596AF98CE">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:18:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX_Score" id="A2754F01-A20D-54E1-AA79-597D6A0EAF6A">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:18:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igrice_ID_Igrice" id="0091E41C-BBEC-2EC4-30F1-1CC2B7623C03">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:22:50 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE1CB298-37F3-517F-606F-F0AA7F9FCADC" referredColumn="B260FC19-90BA-6DAD-EF5E-E3F7281B94A9"/>
+</associations>
+</Column>
+<Column name="Pozicija_Korisnika_ID_Pozicija_koirsnika" id="399FE3C0-9D36-DA30-AAAD-CD7BD5247CC3">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:23:03 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24B53FFB-5B6B-552E-884B-CBDDA06CBCE0" referredColumn="85696C27-32C2-B9D4-D7B0-DA39127104E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87CBCB94-31EE-94AE-F8D4-9A3D5A19884C" name="Leaderboard_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:19:53 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94A1AFFC-9500-4BB4-2456-CD1596AF98CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="409262E9-F658-EEB5-5034-C5ED10DEB084" name="Leaderboard_Igrice_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:22:50 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0091E41C-BBEC-2EC4-30F1-1CC2B7623C03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F0DBD13-2391-FB3A-3748-B4F97E469B31" name="Leaderboard_Pozicija_Korisnika_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:23:03 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="399FE3C0-9D36-DA30-AAAD-CD7BD5247CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

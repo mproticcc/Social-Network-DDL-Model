@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAD07542-7373-6FB8-87BC-D3B1D594FD11" name="Poruke ">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:44:15 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name=" ID_Poruke" id="325A1D0D-C32E-6F63-7868-360E5C647386">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:44:31 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tekst_Poruke" id="4C09E885-470A-B232-809D-E08FDC1A4740">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:45:06 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_i_vreme_slanja" id="4C6E7135-EB04-2B2B-11B5-FBD43729BD33">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:45:22 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korisnik_ID_Korisnik" id="7340571F-4865-4949-B4DC-DE4D6BBA4B11">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:55:57 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DF1A8DC-F137-C4E6-4127-F70C98CB35B0" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Korisnik_ID_Korisnik1" id="14DD6C24-561E-6217-C0CB-94F9F0AB34B3">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:01 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBC793D1-C904-C155-7419-814446644F2B" referredColumn="9517D492-895B-9D6A-C7B8-72F62C524C16"/>
+</associations>
+</Column>
+<Column name="Status_Poruke_ID_Status" id="894BB6D6-73D1-616F-328E-7D7DC3CD3288">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:50:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D1163DF-D1DF-D8C7-38EB-293D7E729DDD" referredColumn="2A90217B-65EA-04C9-FA8D-92859C95BF49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CDFB1B8-5E3E-364D-7578-05C8CB0FF51E" name="Poruke_PK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:44:31 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="325A1D0D-C32E-6F63-7868-360E5C647386"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E283403-AAC6-5F99-6D89-1ECAE1E08969" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:09:35 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="5A9894D9-B6FD-DA51-BF7B-9F6B6D4C5350" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:32:14 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="A0A596AE-38A1-2E6E-8016-3B88B61EB0BE" name="Poruke _Konverzacija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:43:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="D7F71848-4201-5B3D-C606-6D9812425FF2" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:43:32 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="7D02CB08-81E5-09C5-B808-DCABB9E54B15" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0D96ABFF-2D19-C401-BE42-E320B8184421" name="Poruke _Konverzacija_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:21:30 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="279A7953-46FC-5324-243C-01A59FA33672" name="Poruke _Korisnik_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:55:57 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7340571F-4865-4949-B4DC-DE4D6BBA4B11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="983625BF-2574-263E-A508-6D6C86588E20" name="Poruke _Korisnik_FKv2">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:01 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14DD6C24-561E-6217-C0CB-94F9F0AB34B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D59610FB-6268-E651-6BED-B274D9099DB1" name="Poruke _Status_Poruke_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 12:50:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894BB6D6-73D1-616F-328E-7D7DC3CD3288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AEE149C-7B94-413A-7C2C-872626EBB996" name="Poruke _Grupa_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:51 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F15B0ABA-B37A-B9C3-7AED-33444891A29E" name="Poruke _Konverzacija_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-11 13:05:52 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

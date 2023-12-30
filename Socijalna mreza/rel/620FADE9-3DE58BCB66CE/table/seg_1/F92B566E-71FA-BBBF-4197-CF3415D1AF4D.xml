@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F92B566E-71FA-BBBF-4197-CF3415D1AF4D" name="Zdravstveno osiguranje">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:31:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Zdravstveno_osiguranje" id="B7D1076E-0A3C-FD4B-75E2-E9AD85620189">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:32:17 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip" id="4CE36DFE-B3B8-BF2F-DF3F-3BBB5F6B584D">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:32:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="0CA42324-71C9-B37C-30A9-44F6BF9D2650">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:32:41 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="203FCBE0-F7C9-3760-21EC-3E83863841AC" name="Zdravstveno osiguranje_PK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:32:17 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7D1076E-0A3C-FD4B-75E2-E9AD85620189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
