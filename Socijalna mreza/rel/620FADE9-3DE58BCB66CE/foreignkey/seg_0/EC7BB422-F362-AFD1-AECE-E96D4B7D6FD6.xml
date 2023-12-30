@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC7BB422-F362-AFD1-AECE-E96D4B7D6FD6" containerWithKeyObject="93E2CD7D-43A0-661D-EAEE-BC97567A8E28" localFKIndex="50E3FF30-26BF-633D-7BC8-340ADF9364D8" name="Objave_Pesma_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-30 13:47:05 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Pesma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F9A5F305-538E-4C12-4140-67C8F43838EB</referredTableID>
+<keyObject>7300CDB0-51B5-865F-12B3-4D7D9D77DD0E</keyObject>
+<referredKeyID>7300CDB0-51B5-865F-12B3-4D7D9D77DD0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pesme</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

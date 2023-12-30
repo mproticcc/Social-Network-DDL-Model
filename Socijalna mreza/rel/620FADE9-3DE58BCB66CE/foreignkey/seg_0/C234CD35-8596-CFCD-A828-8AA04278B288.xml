@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C234CD35-8596-CFCD-A828-8AA04278B288" containerWithKeyObject="AEBAE983-58E6-093B-B93B-8B8D0D380613" localFKIndex="0979B237-2030-6174-DC7B-DEDA077FDB6C" name="Clanstvo_U_Grupi _Grupni_Razgovori_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-09 13:56:47 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Grupa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA501C13-D662-13FD-CC16-15E7527DB629</referredTableID>
+<keyObject>65C09441-3654-4EEB-028E-5823C3F8931A</keyObject>
+<referredKeyID>65C09441-3654-4EEB-028E-5823C3F8931A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames> ID_Grupe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

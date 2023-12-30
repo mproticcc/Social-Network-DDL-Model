@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="506841D5-4CC7-B59A-E6B5-C136E6B705F2" containerWithKeyObject="CAD07542-7373-6FB8-87BC-D3B1D594FD11" localFKIndex="8AEE0F08-3DC2-882C-B2EE-4EF2E9C9F74D" name="Poruke _Grupa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:23:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Grupa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA501C13-D662-13FD-CC16-15E7527DB629</referredTableID>
+<keyObject>65C09441-3654-4EEB-028E-5823C3F8931A</keyObject>
+<referredKeyID>65C09441-3654-4EEB-028E-5823C3F8931A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames> ID_Grupe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

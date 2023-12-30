@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="986E8BF8-8FDC-68AD-E383-71F9C776E066" containerWithKeyObject="4893D585-90DF-6833-8545-F9ACACC8308C" localFKIndex="9181FFE4-9582-C16F-94E6-80427804C54D" name="Pozivi_Status_Poziva_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-23 12:59:07 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Status_Poziva</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43593991-1CFB-9222-63C1-D8F0AEF4E798</referredTableID>
+<keyObject>32375E69-0A86-8155-02E0-B4D796A089C2</keyObject>
+<referredKeyID>32375E69-0A86-8155-02E0-B4D796A089C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Status_Poziva</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

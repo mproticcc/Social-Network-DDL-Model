@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="556CAD5E-855B-F671-B546-4A179DB51FFF" containerWithKeyObject="F9A5F305-538E-4C12-4140-67C8F43838EB" localFKIndex="0AAE3555-A6E3-0883-D9DA-4297926B9957" name="Muzika_Zanr_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-16 13:48:18 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Zanr</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B410578B-0B5C-F3F3-8E23-2DA1A724AEEA</referredTableID>
+<keyObject>32810741-19B3-B642-C69E-04FF92F56AC5</keyObject>
+<referredKeyID>32810741-19B3-B642-C69E-04FF92F56AC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Zanr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

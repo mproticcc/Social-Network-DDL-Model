@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5ECB6A9-BDDD-D964-72C7-C263A237BC6F" containerWithKeyObject="35BE9DC9-815E-0857-7A78-1C8FFFBFB0DE" localFKIndex="89A5CCF4-C977-1A78-EC97-237D36B6190C" name="Mentor_Preporuke_FK">
+<createdBy>Sanja</createdBy>
+<createdTime>2023-12-28 13:37:24 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Preporuke</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5A228DA-CF72-BBD7-DB36-146E923330CA</referredTableID>
+<keyObject>80E75FF6-B925-A565-FFE1-853B3638A36D</keyObject>
+<referredKeyID>80E75FF6-B925-A565-FFE1-853B3638A36D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Preporuke</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

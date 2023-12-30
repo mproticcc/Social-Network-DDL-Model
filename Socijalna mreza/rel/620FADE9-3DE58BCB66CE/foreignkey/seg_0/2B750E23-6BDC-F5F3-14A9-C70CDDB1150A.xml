@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B750E23-6BDC-F5F3-14A9-C70CDDB1150A" containerWithKeyObject="EC80A4AB-8B6A-6EA8-DB40-0968B74AFDE7" localFKIndex="D26E5085-E78C-BC06-A1B0-97C3F7568831" name="Komentari_Komentari_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-10-28 22:34:37 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Komentari</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC80A4AB-8B6A-6EA8-DB40-0968B74AFDE7</referredTableID>
+<keyObject>68881F5C-5387-8CB1-335C-36ACC262F3CA</keyObject>
+<referredKeyID>68881F5C-5387-8CB1-335C-36ACC262F3CA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_Komentari</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
