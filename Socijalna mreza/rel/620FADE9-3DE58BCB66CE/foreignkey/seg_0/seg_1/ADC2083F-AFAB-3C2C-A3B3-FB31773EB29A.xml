@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="ADC2083F-AFAB-3C2C-A3B3-FB31773EB29A" containerWithKeyObject="C38DEB43-B50F-38A9-E665-34516CF03E3B" localFKIndex="9D849CA5-1084-16CE-8E81-91BE2283A9FE" name="Event_Tip_Eventa_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:36:44 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Tip_Eventa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EFD01875-4830-1996-F8DB-9960F02D2B54</referredTableID>
+<keyObject>575AA787-46CC-804A-01EE-2384EC58B743</keyObject>
+<referredKeyID>575AA787-46CC-804A-01EE-2384EC58B743</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Tip_eventa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

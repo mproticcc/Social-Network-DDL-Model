@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="56801BAA-A77A-72A8-DD1D-1EEA8FA88FED" containerWithKeyObject="5E7506AC-D0D1-6CA1-A54E-7D3918D500B9" localFKIndex="017AC36A-77A9-8EF5-16D5-3452699FC50F" name="Tag_Kategorija_Proizvoda_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 13:53:53 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Kategorija_Proizvoda</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E547FFB6-179F-B7A0-4998-4EFD83DC8A7C</referredTableID>
+<keyObject>2A5E82AF-1A0E-C449-A6BF-7485EED865CB</keyObject>
+<referredKeyID>2A5E82AF-1A0E-C449-A6BF-7485EED865CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Kategorija_Proizvoda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

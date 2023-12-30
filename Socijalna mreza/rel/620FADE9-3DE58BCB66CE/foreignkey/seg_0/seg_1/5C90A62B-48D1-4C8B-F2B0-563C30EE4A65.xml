@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5C90A62B-48D1-4C8B-F2B0-563C30EE4A65" containerWithKeyObject="D21AF67B-EEC9-5C43-4F39-1DA0885D6713" localFKIndex="30D7799C-0D1C-4389-F049-4928874CF076" name="Igrice_Ocene_FK">
+<createdBy>mikac</createdBy>
+<createdTime>2023-11-13 14:11:29 UTC</createdTime>
+<ownerDesignName>Socijalna mreza</ownerDesignName>
+<referredTableLongName>Ocene</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A97432C-E707-7347-3D1E-51EF4F959E64</referredTableID>
+<keyObject>1A087C62-DC7D-8B9C-280A-2D379CCC5CA3</keyObject>
+<referredKeyID>1A087C62-DC7D-8B9C-280A-2D379CCC5CA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Ocene</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
