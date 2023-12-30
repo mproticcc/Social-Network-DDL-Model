@@ -1,1 +1,2 @@
-# Social-Network-SQL-
+# Social-Network-model
+#80 tabela
